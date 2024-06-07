@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsheet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <span class="logo"><img src="logo.png" alt=""></span>
+                <li class="title">Your Cheatsheets</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <ol class = "list">
+            <li>Language HTML :
+                <pre class="language-html"><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                </code></pre>
+            </li>
+            <li>Language JS :
+                <pre class="language-JS"><code>
+console.log("hello")
+
+console.time("forLoop")
+for (let i = 0; i<5 ; i++) {
+console.log(233)
+}
+console.timeEnd("forLoop")
+                </code></pre>
+            </li>
+            <li>Language Python :
+                <pre class="language-python"><code>
+def fib(n):
+    a, b = 0, 1
+    while a < n:
+        print(a, end=' ')
+        a, b = b, a+b
+    print()
+fib(1000)
+                </code></pre>
+            </li>
+            <li>Language C++ :
+                <pre class="language-c++"><code>
+#include <stdio.h>
+int main() {
+    // printf() displays the string inside quotation
+    printf("Hello, World!");
+    return 0;
+}
+                </code></pre>
+            </li>
+        </ol>
+    </div>
+    
+</body>
+</html>

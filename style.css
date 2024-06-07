@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Potta+One&family=Roboto:wght@500&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Potta+One&family=Roboto+Mono:wght@200&family=Roboto:wght@500&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    background-color: rgb(42, 8, 42);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Potta One', cursive;
+}
+
+.title {
+    list-style: none;
+    padding: 12px;
+}
+
+.logo {
+    align-content: center;
+}
+
+.logo img {
+    width: 54px;
+}
+
+.container {
+    padding: 10px 0;
+    height: 30vh;
+    width: 40vw;
+    margin: auto;
+}
+
+.list {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+@media screen and (max-width:1636px) {
+    .list {
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        padding: 5px;
+        flex-wrap: wrap;
+
+    }
+    pre[class*="language-"] {
+        padding: 1em !important;
+        margin: .5em 0 !important;
+        overflow: auto;
+        border-radius: .3em !important;
+        width: 88vw !important;
+
+}
+}
